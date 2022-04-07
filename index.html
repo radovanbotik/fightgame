@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./js/classes.js"></script>
+    <script src="./script.js" defer></script>
+    <title>Pixels</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="healthbars-container">
+        <!-- player health -->
+        <div class="phealth" id="playerhealth"></div>
+        <!-- timer -->
+        <div class="timer"></div>
+        <!-- enemy health -->
+        <div
+          id="enemyhealth"
+          style="position: relative; height: 3rem; width: 100%"
+        >
+          <div class="ehealth"></div>
+          <div
+            style="
+              position: absolute;
+              background: blue;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+            "
+          ></div>
+        </div>
+      </div>
+      <canvas></canvas>
+    </div>
+  </body>
+</html>

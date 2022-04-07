@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.wrapper {
+  position: relative;
+  display: inline-block;
+}
+.healthbars-container {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+.phealth {
+  background-color: yellow;
+  height: 3rem;
+  width: 100%;
+}
+.ehealth {
+  background-color: yellow;
+  height: 3rem;
+}
+.timer {
+  background-color: red;
+  width: 10rem;
+  height: 10rem;
+
+  flex-shrink: 0;
+}
